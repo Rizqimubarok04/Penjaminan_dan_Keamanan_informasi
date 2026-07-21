@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -T4 -A -v www.bgn.go.id" profile_name="Intense scan" scanner="nmap" start="1784601676" startstr="Tue Jul 21 09:41:16 2026" version="7.99" xmloutputversion="1.04"><scaninfo type="connect" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">WARNING: Could not import all necessary Npcap functions. You may need to upgrade to the latest version from https://npcap.com. Resorting to connect() mode -- Nmap may not function completely
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-21 09:41 +0700
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 09:41
+Completed NSE at 09:41, 0.00s elapsed
+Initiating NSE at 09:41
+Completed NSE at 09:41, 0.00s elapsed
+Initiating NSE at 09:41
+Completed NSE at 09:41, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 09:41
+Completed Parallel DNS resolution of 1 host. at 09:41, 0.20s elapsed
+Initiating Ping Scan at 09:41
+Scanning www.bgn.go.id (110.239.78.90) [2 ports]
+Completed Ping Scan at 09:41, 0.05s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 09:41
+Completed Parallel DNS resolution of 1 host. at 09:41, 0.56s elapsed
+Initiating Connect Scan at 09:41
+Scanning www.bgn.go.id (110.239.78.90) [1000 ports]
+Discovered open port 8080/tcp on 110.239.78.90
+Discovered open port 443/tcp on 110.239.78.90
+Discovered open port 80/tcp on 110.239.78.90
+Discovered open port 587/tcp on 110.239.78.90
+Discovered open port 8888/tcp on 110.239.78.90
+Discovered open port 995/tcp on 110.239.78.90
+Discovered open port 9200/tcp on 110.239.78.90
+Discovered open port 144/tcp on 110.239.78.90
+Discovered open port 7025/tcp on 110.239.78.90
+Discovered open port 9050/tcp on 110.239.78.90
+Discovered open port 5001/tcp on 110.239.78.90
+Discovered open port 8443/tcp on 110.239.78.90
+Discovered open port 10000/tcp on 110.239.78.90
+Discovered open port 8001/tcp on 110.239.78.90
+Discovered open port 8800/tcp on 110.239.78.90
+Discovered open port 9929/tcp on 110.239.78.90
+Discovered open port 84/tcp on 110.239.78.90
+Discovered open port 88/tcp on 110.239.78.90
+Discovered open port 1102/tcp on 110.239.78.90
+Discovered open port 888/tcp on 110.239.78.90
+Discovered open port 8009/tcp on 110.239.78.90
+Discovered open port 8180/tcp on 110.239.78.90
+Discovered open port 7004/tcp on 110.239.78.90
+Discovered open port 9207/tcp on 110.239.78.90
+Discovered open port 8083/tcp on 110.239.78.90
+Discovered open port 19101/tcp on 110.239.78.90
+Discovered open port 7019/tcp on 110.239.78.90
+Discovered open port 4444/tcp on 110.239.78.90
+Discovered open port 8082/tcp on 110.239.78.90
+Discovered open port 1090/tcp on 110.239.78.90
+Discovered open port 85/tcp on 110.239.78.90
+Discovered open port 10001/tcp on 110.239.78.90
+Discovered open port 8011/tcp on 110.239.78.90
+Discovered open port 8002/tcp on 110.239.78.90
+Discovered open port 10003/tcp on 110.239.78.90
+Discovered open port 8022/tcp on 110.239.78.90
+Discovered open port 9999/tcp on 110.239.78.90
+Discovered open port 8010/tcp on 110.239.78.90
+Discovered open port 5100/tcp on 110.239.78.90
+Discovered open port 6666/tcp on 110.239.78.90
+Discovered open port 10002/tcp on 110.239.78.90
+Discovered open port 7800/tcp on 110.239.78.90
+Discovered open port 9081/tcp on 110.239.78.90
+Discovered open port 8081/tcp on 110.239.78.90
+Discovered open port 9099/tcp on 110.239.78.90
+Discovered open port 3333/tcp on 110.239.78.90
+Discovered open port 4006/tcp on 110.239.78.90
+Discovered open port 5222/tcp on 110.239.78.90
+Discovered open port 8085/tcp on 110.239.78.90
+Discovered open port 9091/tcp on 110.239.78.90
+Discovered open port 6969/tcp on 110.239.78.90
+Discovered open port 280/tcp on 110.239.78.90
+Discovered open port 808/tcp on 110.239.78.90
+Discovered open port 5555/tcp on 110.239.78.90
+Discovered open port 1001/tcp on 110.239.78.90
+Discovered open port 83/tcp on 110.239.78.90
+Discovered open port 9002/tcp on 110.239.78.90
+Discovered open port 7777/tcp on 110.239.78.90
+Discovered open port 8007/tcp on 110.239.78.90
+Discovered open port 82/tcp on 110.239.78.90
+Discovered open port 8087/tcp on 110.239.78.90
+Discovered open port 9090/tcp on 110.239.78.90
+Discovered open port 7070/tcp on 110.239.78.90
+Discovered open port 9100/tcp on 110.239.78.90
+Discovered open port 1688/tcp on 110.239.78.90
+Discovered open port 9080/tcp on 110.239.78.90
+Discovered open port 8086/tcp on 110.239.78.90
+Discovered open port 7002/tcp on 110.239.78.90
+Discovered open port 9000/tcp on 110.239.78.90
+Discovered open port 8181/tcp on 110.239.78.90
+Discovered open port 89/tcp on 110.239.78.90
+Discovered open port 8100/tcp on 110.239.78.90
+Discovered open port 800/tcp on 110.239.78.90
+Discovered open port 1000/tcp on 110.239.78.90
+Discovered open port 7443/tcp on 110.239.78.90
+Discovered open port 8000/tcp on 110.239.78.90
+Discovered open port 8084/tcp on 110.239.78.90
+Discovered open port 8200/tcp on 110.239.78.90
+Discovered open port 7001/tcp on 110.239.78.90
+Discovered open port 5080/tcp on 110.239.78.90
+Discovered open port 3128/tcp on 110.239.78.90
+Discovered open port 4443/tcp on 110.239.78.90
+Discovered open port 90/tcp on 110.239.78.90
+Discovered open port 8021/tcp on 110.239.78.90
+Discovered open port 6788/tcp on 110.239.78.90
+Discovered open port 8093/tcp on 110.239.78.90
+Discovered open port 6699/tcp on 110.239.78.90
+Discovered open port 8008/tcp on 110.239.78.90
+Discovered open port 6789/tcp on 110.239.78.90
+Discovered open port 7000/tcp on 110.239.78.90
+Discovered open port 12345/tcp on 110.239.78.90
+Discovered open port 14000/tcp on 110.239.78.90
+Discovered open port 9503/tcp on 110.239.78.90
+Discovered open port 8089/tcp on 110.239.78.90
+Discovered open port 8899/tcp on 110.239.78.90
+Discovered open port 8088/tcp on 110.239.78.90
+Discovered open port 9898/tcp on 110.239.78.90
+Discovered open port 5000/tcp on 110.239.78.90
+Discovered open port 3000/tcp on 110.239.78.90
+Discovered open port 9003/tcp on 110.239.78.90
+Discovered open port 8090/tcp on 110.239.78.90
+Discovered open port 6001/tcp on 110.239.78.90
+Discovered open port 9001/tcp on 110.239.78.90
+Discovered open port 20000/tcp on 110.239.78.90
+Discovered open port 81/tcp on 110.239.78.90
+Completed Connect Scan at 09:41, 3.02s elapsed (1000 total ports)
+Initiating Service scan at 09:41
+Scanning 104 services on www.bgn.go.id (110.239.78.90)
+Completed Service scan at 09:41, 31.16s elapsed (105 services on 1 host)
+NSE: Script scanning 110.239.78.90.
+Initiating NSE at 09:41
+Completed NSE at 09:42, 43.48s elapsed
+Initiating NSE at 09:42
+Completed NSE at 09:42, 22.53s elapsed
+Initiating NSE at 09:42
+Completed NSE at 09:42, 0.03s elapsed
+Nmap scan report for www.bgn.go.id (110.239.78.90)
+Host is up (0.079s latency).
+Other addresses for www.bgn.go.id (not scanned): 110.239.78.83
+rDNS record for 110.239.78.90: ecs-110-239-78-90.compute.hwclouds-dns.com
+Not shown: 893 closed tcp ports (conn-refused)
+PORT      STATE    SERVICE        VERSION
+25/tcp    filtered smtp
+80/tcp    open     http           CW
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+|_http-server-header: CW
+|_http-title: Did not follow redirect to https://www.bgn.go.id/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+81/tcp    open     hosts2-ns?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+82/tcp    open     xfer?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+83/tcp    open     mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+84/tcp    open     ctf?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+85/tcp    open     mit-ml-dev?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+88/tcp    open     kerberos-sec?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+89/tcp    open     su-mit-tg?
+90/tcp    open     dnsix?
+| tls-alpn: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+144/tcp   open     news?
+280/tcp   open     http-mgmt?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+443/tcp   open     ssl/https      CW
+| tls-nextprotoneg: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: CW
+| ssl-cert: Subject: commonName=*.bgn.go.id
+| Subject Alternative Name: DNS:*.bgn.go.id, DNS:bgn.go.id
+| Issuer: commonName=Sectigo Public Server Authentication CA DV R36/organizationName=Sectigo Limited/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-02-09T00:00:00
+| Not valid after:  2027-03-06T23:59:59
+| MD5:     d2d8 f971 724a c9ce 3414 7364 dc3a 457d
+| SHA-1:   b653 877c cba0 1f0f a20a 119d 2831 4913 744f ff72
+|_SHA-256: 59ab 0a98 e33c 731b cf73 2bf6 f14a b053 5529 3ca5 02ff 8ce4 c41f 6e7f 890b 7122
+|_http-generator: Astro v5.18.1
+|_http-favicon: Unknown favicon MD5: 142BF4C3A1C07EDBDAEC45CDD73E6038
+|_http-title: Badan Gizi Nasional | Layanan Unggulan untuk Masa Depan Sehat ...
+| tls-alpn: 
+|_  http/1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+587/tcp   open     submission?
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+|_smtp-commands: Couldn't establish connection on port 587
+800/tcp   open     mdbs_daemon?
+808/tcp   open     ccproxy-http?
+888/tcp   open     accessbuilder?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+995/tcp   open     ssl/pop3s?
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+| tls-nextprotoneg: 
+|_  http/1.1
+| tls-alpn: 
+|_  http/1.1
+1000/tcp  open     cadlock?
+1001/tcp  open     webpush?
+1090/tcp  open     ff-fms?
+1102/tcp  open     adobeserver-1?
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+|_ssl-date: TLS randomness does not represent time
+1688/tcp  open     nsjtp-data?
+3000/tcp  open     ppp?
+3128/tcp  open     squid-http?
+3333/tcp  open     dec-notes?
+4006/tcp  open     pxc-spvr?
+| tls-alpn: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+| tls-nextprotoneg: 
+|_  http/1.1
+|_ssl-date: TLS randomness does not represent time
+4443/tcp  open     ssl/pharos?
+|_ssl-date: TLS randomness does not represent time
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+| tls-alpn: 
+|_  http/1.1
+4444/tcp  open     krb524?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Tue, 21 Jul 2026 02:41:27 GMT
+|     Content-Type: text/html
+|     Content-Length: 2178
+|     Connection: close
+|     ETag: "67925d8f-882"
+|     Server: CW
+|     &lt;!DOCTYPE html&gt;&lt;html style="height:100%;width:100%"&gt;&lt;head&gt;&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;&lt;meta http-equiv="Server" content="CloudWAF" /&gt;&lt;title id="title"&gt;
+|     &lt;/title&gt;&lt;/head&gt;&lt;body style="height:100%;width:100%;margin:0px;font-family:Microsoft yahei"&gt;&lt;div&gt;&lt;style type="text/css"&gt; .button{float:right;margin-right:2rem;text-decoration:none;background:white;color:#e94d4c;padding: 5px 15px 5px 15px;font-size:1rem;font-family: 
+|_    ,Arial,Helvetica,Verdana,sans-serif;font-weight:bold;border-radius:0rem;border: none;-webkit-transition:all linear 0.30s;-moz-transition:all linear 0.30s;}.button:hover{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input type="button"
+5000/tcp  open     upnp?
+5001/tcp  open     commplex-link?
+5060/tcp  filtered sip
+5080/tcp  open     tcpwrapped
+5100/tcp  open     tcpwrapped
+5222/tcp  open     tcpwrapped
+|_xmpp-info: ERROR: Script execution failed (use -d to debug)
+5555/tcp  open     tcpwrapped
+6001/tcp  open     tcpwrapped
+6666/tcp  open     tcpwrapped
+6699/tcp  open     tcpwrapped
+6788/tcp  open     tcpwrapped
+6789/tcp  open     tcpwrapped
+6969/tcp  open     tcpwrapped
+7000/tcp  open     tcpwrapped
+|_irc-info: Unable to open connection
+7001/tcp  open     tcpwrapped
+7002/tcp  open     tcpwrapped
+7004/tcp  open     tcpwrapped
+7019/tcp  open     tcpwrapped
+7025/tcp  open     tcpwrapped
+7070/tcp  open     tcpwrapped
+7443/tcp  open     tcpwrapped
+7777/tcp  open     tcpwrapped
+7800/tcp  open     tcpwrapped
+8000/tcp  open     tcpwrapped
+|_http-server-header: CW
+8001/tcp  open     tcpwrapped
+8002/tcp  open     tcpwrapped
+8007/tcp  open     tcpwrapped
+8008/tcp  open     tcpwrapped
+8009/tcp  open     tcpwrapped
+|_ajp-methods: Failed to get a valid response for the OPTION request
+8010/tcp  open     tcpwrapped
+8011/tcp  open     tcpwrapped
+8021/tcp  open     tcpwrapped
+8022/tcp  open     tcpwrapped
+8080/tcp  open     tcpwrapped
+|_http-server-header: CW
+8081/tcp  open     tcpwrapped
+8082/tcp  open     tcpwrapped
+8083/tcp  open     tcpwrapped
+8084/tcp  open     tcpwrapped
+8085/tcp  open     tcpwrapped
+8086/tcp  open     tcpwrapped
+8087/tcp  open     tcpwrapped
+8088/tcp  open     tcpwrapped
+|_http-server-header: CW
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+8089/tcp  open     tcpwrapped
+8090/tcp  open     tcpwrapped
+8093/tcp  open     tcpwrapped
+8100/tcp  open     tcpwrapped
+8180/tcp  open     tcpwrapped
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+|_http-server-header: CW
+8181/tcp  open     tcpwrapped
+8200/tcp  open     tcpwrapped
+8443/tcp  open     ssl/tcpwrapped
+|_http-server-header: CW
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Default Company Ltd/countryName=XX
+| Issuer: organizationName=Default Company Ltd/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-08-17T01:41:51
+| Not valid after:  2027-08-15T01:41:51
+| MD5:     ea37 e19c 758a 66f7 d20c 17cf 7c27 6c63
+| SHA-1:   9155 0bcb eace 78ee 0f81 8851 a511 cbab 40f8 4fc2
+|_SHA-256: 7223 3deb aa9b 5beb dad8 ba02 7e3c 345c fe28 547e 5d61 4b0d 2e32 f7f9 9d78 4b62
+|_http-title: \xE6\x9C\xAA\xE6\x89\xBE\xE5\x88\xB0
+8800/tcp  open     tcpwrapped
+8888/tcp  open     tcpwrapped
+8899/tcp  open     tcpwrapped
+9000/tcp  open     tcpwrapped
+9001/tcp  open     tcpwrapped
+9002/tcp  open     tcpwrapped
+9003/tcp  open     tcpwrapped
+9050/tcp  open     tcpwrapped
+9080/tcp  open     tcpwrapped
+9081/tcp  open     tcpwrapped
+9090/tcp  open     tcpwrapped
+|_drda-info: ERROR
+9091/tcp  open     tcpwrapped
+9099/tcp  open     tcpwrapped
+9100/tcp  open     jetdirect?
+9200/tcp  open     tcpwrapped
+9207/tcp  open     tcpwrapped
+9503/tcp  open     tcpwrapped
+9898/tcp  open     tcpwrapped
+9929/tcp  open     tcpwrapped
+9999/tcp  open     tcpwrapped
+10000/tcp open     tcpwrapped
+10001/tcp open     tcpwrapped
+10002/tcp open     tcpwrapped
+10003/tcp open     tcpwrapped
+12345/tcp open     tcpwrapped
+14000/tcp open     tcpwrapped
+19101/tcp open     tcpwrapped
+20000/tcp open     tcpwrapped
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port81-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port82-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port83-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port84-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port85-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port88-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r(
+SF:GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x2021
+SF:\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCon
+SF:tent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-882
+SF:\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:10
+SF:0%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=\
+SF:"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20c
+SF:ontent=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\xb
+SF:e\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;mar
+SF:gin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/css
+SF:\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backgr
+SF:ound:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-si
+SF:ze:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x9
+SF:1,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-weig
+SF:ht:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20li
+SF:near\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover{
+SF:text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\x
+SF:20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port280-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x202
+SF:1\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:1
+SF:00%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/cs
+SF:s\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\
+SF:x20type=\"button\"");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port888-TCP:V=7.99%I=7%D=7/21%Time=6A5EDC57%P=i686-pc-windows-windows%r
+SF:(GetRequest,925,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Tue,\x202
+SF:1\x20Jul\x202026\x2002:41:27\x20GMT\r\nContent-Type:\x20text/html\r\nCo
+SF:ntent-Length:\x202178\r\nConnection:\x20close\r\nETag:\x20\"67925d8f-88
+SF:2\"\r\nServer:\x20CW\r\n\r\n&lt;!DOCTYPE\x20html&gt;&lt;html\x20style=\"height:1
+SF:00%;width:100%\"&gt;&lt;head&gt;&lt;meta\x20http-equiv=\"Content-Type\"\x20content=
+SF:\"text/html;\x20charset=utf-8\"\x20/&gt;&lt;meta\x20http-equiv=\"Server\"\x20
+SF:content=\"CloudWAF\"\x20/&gt;&lt;title\x20id=\"title\"&gt;\xe6\x9c\xaa\xe6\x89\x
+SF:be\xe5\x88\xb0&lt;/title&gt;&lt;/head&gt;&lt;body\x20style=\"height:100%;width:100%;ma
+SF:rgin:0px;font-family:Microsoft\x20yahei\"&gt;&lt;div&gt;&lt;style\x20type=\"text/cs
+SF:s\"&gt;\t\.button{float:right;margin-right:2rem;text-decoration:none;backg
+SF:round:white;color:#e94d4c;padding:\x205px\x2015px\x205px\x2015px;font-s
+SF:ize:1rem;font-family:\x20\xe5\xbe\xae\xe8\xbd\xaf\xe9\x9b\x85\xe9\xbb\x
+SF:91,\xe5\xae\x8b\xe4\xbd\x93,Arial,Helvetica,Verdana,sans-serif;font-wei
+SF:ght:bold;border-radius:0rem;border:\x20none;-webkit-transition:all\x20l
+SF:inear\x200\.30s;-moz-transition:all\x20linear\x200\.30s;}\.button:hover
+SF:{text-decoration:none;background:#e94d4c;color:#f2f2f2;}&lt;/style&gt;&lt;input\
+SF:x20type=\"button\"");
+
+NSE: Script Post-scanning.
+Initiating NSE at 09:42
+Completed NSE at 09:42, 0.00s elapsed
+Initiating NSE at 09:42
+Completed NSE at 09:42, 0.00s elapsed
+Initiating NSE at 09:42
+Completed NSE at 09:42, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 101.71 seconds
+</output><host comment=""><status state="up"></status><address addr="110.239.78.90" vendor="" addrtype="ipv4"></address><hostnames><hostname name="www.bgn.go.id" type="user"></hostname><hostname name="ecs-110-239-78-90.compute.hwclouds-dns.com" type="PTR"></hostname></hostnames><ports><extraports count="893" state="closed"></extraports><port portid="25" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="smtp"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="10" method="probed" name="http" product="CW"></service></port><port portid="81" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="hosts2-ns"></service></port><port portid="82" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="xfer"></service></port><port portid="83" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="mit-ml-dev"></service></port><port portid="84" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="ctf"></service></port><port portid="85" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="mit-ml-dev"></service></port><port portid="88" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="kerberos-sec"></service></port><port portid="89" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="su-mit-tg"></service></port><port portid="90" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="dnsix"></service></port><port portid="144" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="news"></service></port><port portid="280" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="http-mgmt"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="10" method="probed" name="https" product="CW"></service></port><port portid="587" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="submission"></service></port><port portid="800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="mdbs_daemon"></service></port><port portid="808" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="ccproxy-http"></service></port><port portid="888" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="accessbuilder"></service></port><port portid="995" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="pop3s"></service></port><port portid="1000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="cadlock"></service></port><port portid="1001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="webpush"></service></port><port portid="1090" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="ff-fms"></service></port><port portid="1102" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="adobeserver-1"></service></port><port portid="1688" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="nsjtp-data"></service></port><port portid="3000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="ppp"></service></port><port portid="3128" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="squid-http"></service></port><port portid="3333" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="dec-notes"></service></port><port portid="4006" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="pxc-spvr"></service></port><port portid="4443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="pharos"></service></port><port portid="4444" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="krb524"></service></port><port portid="5000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="upnp"></service></port><port portid="5001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="commplex-link"></service></port><port portid="5060" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="sip"></service></port><port portid="5080" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="5100" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="5222" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="5555" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6666" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6699" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6788" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6789" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="6969" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7002" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7004" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7019" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7025" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7070" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7777" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="7800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8002" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8007" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8008" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8009" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8010" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8011" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8021" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8022" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8080" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8081" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8082" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8083" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8084" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8085" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8086" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8087" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8088" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8089" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8090" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8093" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8100" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8180" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8181" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8200" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="10" method="probed" name="tcpwrapped"></service></port><port portid="8800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8888" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="8899" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9002" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9003" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9050" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9080" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9081" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9090" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9091" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9099" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9100" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="3" method="table" name="jetdirect"></service></port><port portid="9200" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9207" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9503" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9898" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9929" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="9999" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="10000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="10001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="10002" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="10003" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="12345" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="14000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="19101" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port><port portid="20000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="0"></state><service conf="8" method="probed" name="tcpwrapped"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1784601778" timestr="Tue Jul 21 09:42:58 2026"></finished><hosts up="1" down="0" total="1"></hosts></runstats></nmaprun>
